@@ -5,12 +5,12 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "emlog" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
-description "Emlog [Chinese] - Homepage: http://bbs.dvbbs.net/"
+author "shang <s@suu.cc>" # 2014-07-04
+version "0.1.2"
+description "Emlog [Chinese] - Homepage: http://www.emlog.net/"
 
 # Examples #
-examples %w| http://bbs.dvbbs.net/ |
+examples %w| http://www.emlog.net/ |
 
 # Dorks #
 dorks [
@@ -21,7 +21,8 @@ dorks [
 matches [
 
   # url exists, i.e. returns HTTP status 200
-
+  {:text=>"Powered by <a href=\"http://www.emlog.net\" title=\"emlog "},
+  {:version=>/title=\"emlog ([\d\.]+)\">emlog/m},
   {:url=>"/robots.txt",:text=>"emlog"},
   {:url=>"/wlwmanifest.xml",:text=>"emlog"},
   {:url=>"/content/templates/default/main.css",:text=>"emlog"},
