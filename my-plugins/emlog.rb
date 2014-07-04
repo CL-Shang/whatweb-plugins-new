@@ -6,7 +6,7 @@
 ##
 Plugin.define "emlog" do
 author "shang <s@suu.cc>" # 2014-07-04
-version "0.1.2"
+version "0.1.3"
 description "Emlog [Chinese] - Homepage: http://www.emlog.net/"
 
 # Examples #
@@ -21,8 +21,9 @@ dorks [
 matches [
 
   # url exists, i.e. returns HTTP status 200
+  {:text=>"<meta name=\"generator\" content=\"emlog\" />"},
   {:text=>"Powered by <a href=\"http://www.emlog.net\" title=\"emlog "},
-  {:version=>/title=\"emlog ([\d\.]+)\">emlog/m},
+  {:version=>/title=\"emlog ([\d\.]+)\"/m},
   {:url=>"/robots.txt",:text=>"emlog"},
   {:url=>"/wlwmanifest.xml",:text=>"emlog"},
   {:url=>"/content/templates/default/main.css",:text=>"emlog"},
