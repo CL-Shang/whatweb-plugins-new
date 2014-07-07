@@ -4,13 +4,13 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "ecshop" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
-description "Ecshop [Chinese] - Homepage: http://bbs.dvbbs.net/"
+Plugin.define "Ecshop" do
+author "shang <s@suu.cc>" # 2014-07-07
+version "0.1.2"
+description "Ecshop [Chinese] - Homepage: http://www.ecshop.com/"
 
 # Examples #
-examples %w| http://bbs.dvbbs.net/ |
+examples %w| http://www.shop.nokia.com.cn/ http://www.amoi.com.cn/ |
 
 # Dorks #
 dorks [
@@ -26,6 +26,12 @@ matches [
 {:text=>"content=\"ECSHOP"},
 {:text=>"/api/cron.php"},
 {:url=>"/js/transport.js",:text=>"ecshop"},
+# Title
+{:certainty=>25, :regexp=>/<title>[^<]+ - Powered by ECShop<\/title>/ },
+
+# Version Detection # Meta Generator
+{:version=>/<meta name="Generator" content="ECSHOP v([\d\.]+)" \/>/ },
+
 
 
 ]
