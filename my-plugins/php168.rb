@@ -5,8 +5,8 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "php168" do
-author "shang <s@suu.cc>" # 2014-07-02
-version "0.1.2"
+author "shang <s@suu.cc>" # 2014-07-07
+version "0.1.3"
 description "PHP168 [Chinese] - Homepage: http://www.php168.net/"
 
 # Examples #
@@ -14,7 +14,7 @@ examples %w| http://php168.cn/com/ http://gov.php168.cn/ http://www.dhyj.gov.cn/
 
 # Dorks #
 dorks [
-'"Powered By PHP168"'
+'"Powered by PHP168.com"'
 ]
 
 # Matches #
@@ -26,9 +26,7 @@ matches [
    {:text=>"Powered by <a href=\"http:\/\/www.php168.com\" target=\"_blank\">PHP168"},
    {:version=>/PHP168 V([\d\.]+)<\/a>/m},
    {:text=>"<a href=\"http:\/\/www.php168.com\/bbs\" target=\"_blank\">PHP168cms</a>"},
-   {:url=>"/js/util.js",:text=>"php168"},
-   {:url=>"/skin/label/label.css"},   
-   {:url=>"/plugin/qqconnect/bind.html",:text=>"php168"},
+   {:url=>"/admin/",:text=>"PHP168"}
 ]
 
 
