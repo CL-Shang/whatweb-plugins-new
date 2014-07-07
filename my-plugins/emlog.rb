@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "emlog" do
+Plugin.define "Emlog" do
 author "shang <s@suu.cc>" # 2014-07-04
 version "0.1.3"
 description "Emlog [Chinese] - Homepage: http://www.emlog.net/"
