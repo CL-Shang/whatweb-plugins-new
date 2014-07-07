@@ -27,7 +27,6 @@ matches [
 {:text=>"Power by DedeCms"},
 {:url=>"/templets/default/style/dedecms.css",:version=>/DedeCMS v([\d\.]+)/m},
 
-
 ]
 
 
