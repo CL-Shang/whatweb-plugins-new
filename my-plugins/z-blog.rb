@@ -5,8 +5,8 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "z-blog" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
+author "shang <s@suu.cc>" # 2014-07-07
+version "0.1.2"
 description "Z-Blog [Chinese] - Homepage: http://www.zblogcn.com/"
 
 # Examples #
@@ -25,7 +25,7 @@ matches [
   {:version=>/<meta name=\"generator\" content=\"Z-Blog ([\d\.]+ Prism Build [\d\.]+)\"/},
   {:text=>"/zb_system/script/common.js"},
   {:text=>"/zb_users/theme/williamlong/script/custom.js"},
- 
+  {:url=>"/script/common.js",:text=>"Z-Blog"}
  ]
 
 
