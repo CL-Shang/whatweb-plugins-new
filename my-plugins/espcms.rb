@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "espcms" do
+Plugin.define "EspCMS" do
 author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "EspCMS [Chinese] - Homepage: http://www.ecisp.cn/"
