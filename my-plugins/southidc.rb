@@ -5,8 +5,8 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "southidc" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
+author "shang <s@suu.cc>" # 2014-07-07
+version "0.1.2"
 description "Southidc [Chinese] - Homepage: http://www.southidc.net/"
 
 # Examples #
@@ -25,6 +25,8 @@ matches [
  # {:text=>"<META NAME=\"Author\" CONTENT=\"南方数据,www.Southidc.net"},
   {:text=>"Designed By <a href=\"http:\/\/www.southidc.net\" target=\"_blank\">Southidc.net"},
   {:url=>"/Script/FocusSlide.js",:text=>"www.southidc.net"},
+  {:text=>"Southidcmenu.js"},
+  {:url=>"/Inc/Southidcmenu.js",:version=>/Ver: ([\d\.]+)/m},
   
 ]
 
