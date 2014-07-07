@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "siteserver" do
+Plugin.define "SiteServer" do
 author "shang <s@suu.cc>" # 2014-07-02
 version "0.1.2"
 description "SiteServer [Chinese] - Homepage: http://www.siteserver.cn/"
