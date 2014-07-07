@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "phpwind" do
+Plugin.define "PHPWind" do
 author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "PHPWind [Chinese] - Homepage: http://www.phpwind.net/"
