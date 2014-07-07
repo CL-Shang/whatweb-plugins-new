@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "kesioncms" do
+Plugin.define "KesionCMS" do
 author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "KesionCMS [Chinese] - Homepage: http://www.kesion.com/"
