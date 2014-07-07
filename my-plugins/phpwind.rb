@@ -5,8 +5,8 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "phpwind" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
+author "shang <s@suu.cc>" # 2014-07-07
+version "0.1.2"
 description "PHPWind [Chinese] - Homepage: http://www.phpwind.net/"
 
 # Examples #
@@ -14,7 +14,7 @@ examples %w| http://www.phpwind.net/ http://www.hualongxiang.com/ http://www.jjj
 
 # Dorks #
 dorks [
-'"Powered By PHPWind"'
+'"Powered by phpwind"'
 ]
 
 # Matches #
@@ -24,6 +24,10 @@ matches [
   
   {:text=>"js/pw_ajax.js"},
   {:url=>"js/pw_ajax.js"},
+  {:version=>/<meta name=\"generator\" content=\"phpwind v([\d\.]+\([\d\.]+\))\"/m},
+  {:url=>"/bbs/",:version=>/<meta name=\"generator\" content=\"phpwind v([\d\.]+\([\d\.]+\))\"/m},
+  {:version=>/>phpwind v([\d\.]+)<\/a>/m}
+  
 ]
 
 
