@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "z-blog" do
+Plugin.define "Z-Blog" do
 author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "Z-Blog [Chinese] - Homepage: http://www.zblogcn.com/"
