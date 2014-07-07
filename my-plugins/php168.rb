@@ -4,7 +4,7 @@
 # web site for more information on licensing and terms of use.
 # http://www.morningstarsecurity.com/research/whatweb
 ##
-Plugin.define "php168" do
+Plugin.define "PHP168" do
 author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.3"
 description "PHP168 [Chinese] - Homepage: http://www.php168.net/"
