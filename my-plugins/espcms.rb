@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "EspCMS [Chinese] - Homepage: http://www.ecisp.cn/"
 
-# Examples #
-examples %w| http://www.ecisp.cn/ |
-
 # Dorks #
 dorks [
 '"Powered By EspCMS"'

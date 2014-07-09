@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-02
 version "0.1.2"
 description "KingCMS [Chinese] - Homepage: http://www.kingcms.com/"
 
-# Examples #
-examples %w| http://www.kingcms.com/ http://www.ganzhouw.com/ http://www.gz-fag.com/ |
-
 # Dorks #
 dorks [
 '"Powered By KingCMS"'

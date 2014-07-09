@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-2
 version "0.1.2"
 description "PowerEasy [Chinese] - Homepage: http://www.powereasy.net/"
 
-# Examples #
-examples %w| http://demo.powereasy.net/ http://www.counsellor.gov.cn/|
-
 # Dorks #
 dorks [
 '"Powered By PowerEasy"'

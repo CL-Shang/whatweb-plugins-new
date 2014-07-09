@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "DotNetCMS [Chinese] - Homepage: http://www.foosun.cn/"
 
-# Examples #
-examples %w| http://demo.foosun.cn/  |
-
 # Dorks #
 dorks [
 '"Powereds by DotNetCMS"'

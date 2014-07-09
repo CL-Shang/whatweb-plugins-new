@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "PHPWind [Chinese] - Homepage: http://www.phpwind.net/"
 
-# Examples #
-examples %w| http://www.phpwind.net/ http://www.hualongxiang.com/ http://www.jjj8.cn/|
-
 # Dorks #
 dorks [
 '"Powered by phpwind"'

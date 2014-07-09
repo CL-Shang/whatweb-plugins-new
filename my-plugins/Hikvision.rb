@@ -9,8 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "Hikvision  - Homepage: http://www.hikvision.com/"
 
-# Examples #
-examples %w| http://117.117.141.157/doc/page/login.asp |
 # Dorks #
 dorks [
 '"Powereds by Hikvision"'

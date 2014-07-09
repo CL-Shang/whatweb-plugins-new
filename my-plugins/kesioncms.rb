@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "KesionCMS [Chinese] - Homepage: http://www.kesion.com/"
 
-# Examples #
-examples %w| http://i.kesion.com/ http://www.zishachina.com/ |
-
 # Dorks #
 dorks [
 '"Powered By KesionCMS"'

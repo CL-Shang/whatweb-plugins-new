@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-04
 version "0.1.3"
 description "Emlog [Chinese] - Homepage: http://www.emlog.net/"
 
-# Examples #
-examples %w| http://www.emlog.net/ |
-
 # Dorks #
 dorks [
 '"Powered By Emlog"'

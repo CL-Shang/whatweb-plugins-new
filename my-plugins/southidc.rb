@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "Southidc [Chinese] - Homepage: http://www.southidc.net/"
 
-# Examples #
-examples %w| http://china.0791idc.com/ |
-
 # Dorks #
 dorks [
 '"Powered By Southidc"'

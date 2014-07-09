@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-02
 version "0.1.2"
 description "SiteServer [Chinese] - Homepage: http://www.siteserver.cn/"
 
-# Examples #
-examples %w| http://www.gapp.gov.cn/ http://www.chinaislands.gov.cn/|
-
 # Dorks #
 dorks [
 '"Powered By SiteServer"'

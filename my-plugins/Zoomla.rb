@@ -9,8 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "Zoomla!Cms [Chinese] - Homepage: http://www.zoomla.cn/"
 
-# Examples #
-examples %w| http://demo.zoomla.cn/ |
 # Dorks #
 dorks [
 '"Powereds by Zoomla!Cms"'

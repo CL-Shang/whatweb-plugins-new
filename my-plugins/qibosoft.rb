@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-03
 version "0.1.2"
 description "qiboSoft [Chinese] - Homepage: http://www.qibosoft.com/"
 
-# Examples #
-examples %w| http://www.qibosoft.com/ http://www.gdepi.com.cn/ http://www.goofm.com/|
-
 # Dorks #
 dorks [
 '"Powered By qiboSoft"'

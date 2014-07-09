@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.3"
 description "PHP168 [Chinese] - Homepage: http://www.php168.net/"
 
-# Examples #
-examples %w| http://php168.cn/com/ http://gov.php168.cn/ http://www.dhyj.gov.cn/|
-
 # Dorks #
 dorks [
 '"Powered by PHP168.com"'

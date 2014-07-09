@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "FoosunCMS [Chinese] - Homepage: http://www.foosun.cn/"
 
-# Examples #
-examples %w| http://www.foosun.cn/ |
-
 # Dorks #
 dorks [
 '"Powered By FoosunCMS"'

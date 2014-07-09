@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "HdWiki [Chinese] - Homepage: http://kaiyuan.hudong.com/"
 
-# Examples #
-examples %w| http://lib.k618.cn/ http://dev.10086.cn/cmdn/wiki/ |
-
 # Dorks #
 dorks [
 '"Powered By HdWiki"'

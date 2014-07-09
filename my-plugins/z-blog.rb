@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "Z-Blog [Chinese] - Homepage: http://www.zblogcn.com/"
 
-# Examples #
-examples %w| http://bbs.dvbbs.net/ |
-
 # Dorks #
 dorks [
 '"Powered By Z-Blog"'

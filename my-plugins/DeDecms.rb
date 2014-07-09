@@ -9,8 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "DeDeCms [Chinese] - Homepage: http://www.dedecms.com/"
 
-# Examples #
-examples %w| http://www.dedecms.com/ http://www.honestjp.com/  |
 # Dorks #
 dorks [
 '"Powereds by DedeCms"'

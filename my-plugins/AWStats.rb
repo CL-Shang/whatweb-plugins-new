@@ -5,12 +5,10 @@
 # http://www.morningstarsecurity.com/research/whatweb
 ##
 Plugin.define "AWStats" do
-author "shang <s@suu.cc>" # 2014-06-30
-version "0.1.1"
-description "AWStats  - Homepage: http://awstats.sourceforge.net/"
+author "shang <s@suu.cc>" # 2014-07-09
+version "0.1.2"
+description "AWStats is a free powerful and featureful tool that generates advanced web, streaming, ftp or mail server statistics, graphically.  - Homepage: http://awstats.sourceforge.net/"
 
-# Examples #
-examples %w| http://www.uwo.ca/cgi-bin/awstats/awstats.pl?config=wellness |
 # Dorks #
 dorks [
 '"Powereds by AWStats"'

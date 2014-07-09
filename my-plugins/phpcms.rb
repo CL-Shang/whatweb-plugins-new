@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-02
 version "0.1.1"
 description "phpCMS [Chinese] - Homepage: http://www.phpcms.cn/"
 
-# Examples #
-examples %w| http://www.phpcms.cn/ |
-
 # Dorks #
 dorks [
 '"Powered By phpCMS"'

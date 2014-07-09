@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "Discuz! [Chinese] - Homepage: http://www.discuz.net/"
 
-# Examples #
-examples %w| http://www.discuz.net/ |
-
 # Dorks #
 dorks [
 '"Powered by Discuz!"'

@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-07
 version "0.1.2"
 description "Ecshop [Chinese] - Homepage: http://www.ecshop.com/"
 
-# Examples #
-examples %w| http://www.shop.nokia.com.cn/ http://www.amoi.com.cn/ |
-
 # Dorks #
 dorks [
 '"Powered By Ecshop"'

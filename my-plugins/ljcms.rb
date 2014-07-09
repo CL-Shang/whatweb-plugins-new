@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-07-02
 version "0.1.2"
 description "LjCMS [Chinese] - Homepage: http://www.liangjing.org/"
 
-# Examples #
-examples %w| http://www.liangjing.org/ http://www.ntp.gov.cn/ http://yq.njutcm.edu.cn/|
-
 # Dorks #
 dorks [
 '"Powered By LjCMS"'

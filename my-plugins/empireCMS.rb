@@ -9,9 +9,6 @@ author "shang <s@suu.cc>" # 2014-06-30
 version "0.1.1"
 description "Open source CMS - homepage: http://www.phome.net/"
 
-# Examples #
-examples %w| http://ecmsdemo.phome.net/ |
-
 # Dorks #
 dorks [
 '"Powered by EmpireCMS"'
